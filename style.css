@@ -260,6 +260,11 @@ label{
 }
 
 @media (max-width:915px) {
+
+    *{
+        transform: scale(0.955);
+    }
+
     body{
         overflow: hidden;
     }
@@ -278,8 +283,8 @@ label{
         display: unset;
         align-items: center;
         justify-content: center;
-        width: 100px;
-        height: 100px;
+        width: 350px;
+        height: 350px;
     }
 
     .circle {
@@ -287,42 +292,42 @@ label{
     }
 
     .circle1 {
-        margin-top: 100px;
-        margin-left: -200px;
+        margin-top: 676px;
+        margin-left: -55px;
     }
 
     .circle2 {
-        margin-top: 400px;
-        margin-left: 190px;
+        margin-top: 314px;
+        margin-left: 269px;
     }
 
     .circle3 {
-        margin-top: 650px;
-        margin-left: -270px;
+        margin-top: 786px;
+        margin-left: -55px;
     }
 
     .circle4 {
-        margin-top: 700px;
-        margin-left: 100px;
+        margin-top: 844px;
+        margin-left: 135px;
     }
 
     .circle5 {
-        margin-top: 250px;
-        margin-left: 190px;
+        margin-top: 165px;
+        margin-left: -60px;
     }
 
     .circle6 {
-        margin-top: 50px;
-        margin-left: 150px;
+        margin-top: 170px;
+        margin-left: 169px;
     }
 
     .circle7 {
-        margin-left: -200px;
-        margin-top: 300px;
+        margin-left: -56px;
+        margin-top: 739px;
     }
 
     .circle8 {
-        margin-top: 400px;
-        margin-left: -250px;
+        margin-top: 56px;
+        margin-left: 35px;
     }
 }
