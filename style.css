@@ -159,6 +159,7 @@ main{
     font-weight: 600;
     font-size: 16px;
     transition: transform 0.15s;
+    cursor:pointer;
 }
 
 .submitButton:hover{
@@ -260,14 +261,10 @@ label{
 }
 
 @media (max-width:915px) {
-
     *{
         transform: scale(0.955);
     }
 
-    body{
-        overflow: hidden;
-    }
     main {
         display: flex;
         max-width: 1600px;
