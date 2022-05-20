@@ -165,43 +165,32 @@ main{
     transform: scale(1.075);
 }
 
-input:not(:focus):not(:placeholder-shown):invalid{
+input:not(:focus):not(:placeholder-shown):invalid, .error{
     transition: background-color 0.5s;
-    background-color: rgb(255, 121, 121);
+    background-color: rgb(255, 121, 121)!important;
 }
 
-
-input[type="text"]{
-    background-color: #82A3A1;
-    border: solid transparent;
-    border-radius: 7px;
+input{
     width: 342px;
     height: 46px;
     margin-top: 5px;
     padding: 0px 10px;
     font-size: 20px;
+    border: solid transparent;
+    border-radius: 7px;
+}
+
+input[type="text"]{
+    background-color: #82A3A1;
 }
 
 input[type="email"], input[inputmode="numeric"] {
     background-color: #9FC490;
-    border: solid transparent;
-    border-radius: 7px;
-    width: 342px;
-    height: 46px;
-    margin-top: 5px;
-    padding: 0px 10px;
-    font-size: 20px;
 }
 
 input[type="password"]{
+    transition: background-color 0.5s;
     background-color: #C0DFA1;
-    border: solid transparent;
-    border-radius: 7px;
-    width: 342px;
-    height: 46px;
-    margin-top: 5px;
-    padding: 0px 10px;
-    font-size: 20px;
 }
 
 label{
@@ -280,6 +269,7 @@ label{
         align-items: center;
         flex-direction: column;
     }
+
     .scene {
         position:absolute !important;
         display: unset;
@@ -288,6 +278,7 @@ label{
         width: 100px;
         height: 100px;
     }
+
     .circle {
         position: absolute;
     }
