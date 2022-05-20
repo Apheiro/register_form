@@ -62,12 +62,12 @@ main{
 }
 
  .circle {
-    position: absolute;
+    position: absolute !important;
 }
 
 .circle1{
-    margin-top: -95px;
-    margin-left: -700px;
+    margin-top: -60px;
+    margin-left: -450px;
 }
 
 .circle2 {
@@ -212,7 +212,7 @@ label{
     margin-top: 10px;
 }
 
-@media (max-width:1244px) {
+@media (max-width:1346px) {
     main {
             display: flex;
             max-width: 1600px;
@@ -259,7 +259,10 @@ label{
     }
 }
 
-@media (max-width:806px) {
+@media (max-width:915px) {
+    body{
+        overflow: hidden;
+    }
     main {
         display: flex;
         max-width: 1600px;
