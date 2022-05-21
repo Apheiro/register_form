@@ -42,11 +42,9 @@ main{
 }
 
 .scene{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
+    position: absolute !important;
+    width: 500px;
+    height: 500px;
 
 }
 
@@ -61,48 +59,45 @@ main{
 
 }
 
- .circle {
-    position: absolute !important;
-}
 
 .circle1{
-    margin-top: -60px;
-    margin-left: -450px;
+    margin-left: -46px;
+    margin-top: 100px;
 }
 
 .circle2 {
-   margin-top: -180px;
-   margin-left: -100px;
+    margin-left: 289px;
+    margin-top: 0px;
 }
 
 .circle3 {
-    margin-top: -100px;
-    margin-left: -270px;
+    margin-left: 116px;
+    margin-top: 73px;
 }
 
 .circle4 {
-  margin-top: 80px;
-  margin-left: -400px;
+    margin-left: -30px;
+    margin-top: 267px;
 }
 
 .circle5 {
-    margin-top: -110px;
-    margin-left: -10px;
+    margin-left: 363px;
+    margin-top: 80px;
 }
 
 .circle6 {
-   margin-top: 50px;
-   margin-left: -60px;
+    margin-left: 289px;
+    margin-top: 239px;
 }
 
 .circle7 {
-    margin-left: -350px;
-    margin-top: -70px;
+    margin-left: 0px;
+    margin-top: 158px;
 }
 
 .circle8 {
-  margin-top: -280px;
-  margin-left: -400px;
+    margin-left: 27px;
+    margin-top: -93px;
 } 
 
 
@@ -278,53 +273,48 @@ label{
     .scene {
         position:absolute !important;
         display: unset;
-        align-items: center;
-        justify-content: center;
         width: 350px;
         height: 350px;
-    }
-
-    .circle {
-        position: absolute;
+        top: 100px;
     }
 
     .circle1 {
-        margin-top: 676px;
-        margin-left: -55px;
+        margin-top: 512px;
+        margin-left: -75px;
     }
 
     .circle2 {
-        margin-top: 314px;
-        margin-left: 269px;
+        margin-top: 125px;
+        margin-left: 282px;
     }
 
     .circle3 {
-        margin-top: 786px;
-        margin-left: -55px;
+        margin-top: 584px;
+        margin-left: -48px;
     }
 
     .circle4 {
-        margin-top: 844px;
-        margin-left: 135px;
+        margin-top: -35px;
+        margin-left: 192px;
     }
 
     .circle5 {
-        margin-top: 165px;
-        margin-left: -60px;
+        margin-top: -59px;
+        margin-left: -48px;
     }
 
     .circle6 {
-        margin-top: 170px;
-        margin-left: 169px;
+        margin-top: 632px;
+        margin-left: 152px;
     }
 
     .circle7 {
-        margin-left: -56px;
-        margin-top: 739px;
+        margin-left: -105px;
+        margin-top: 586px;
     }
 
     .circle8 {
-        margin-top: 56px;
-        margin-left: 35px;
+        margin-top: -157px;
+        margin-left: 81px;
     }
 }
